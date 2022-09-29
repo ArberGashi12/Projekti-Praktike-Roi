@@ -1,0 +1,71 @@
+.logout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Inter";
+}
+
+.logout_button {
+    min-width: 300px;
+    padding: 17px 30px;
+    margin-top: 20px;
+    background: black;
+    border:none;
+    color: white;
+    font-size: 14px;
+    font-family: "Inter";
+    border-radius: 3px;
+ }
+.user_name{
+    color:blueviolet;
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: "Inter";
+    
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.login_form > h1 {
+    font-size: 33px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+    padding-left: 97px;
+    text-transform: uppercase;
+    color: rgb(255, 221, 0);
+}
+.login_form > input {
+    min-width: 380px;
+    padding: 20px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid Orgba(0, 0, 0, 0.24);
+    font-family: "Inter";
+    border-radius: 2px;
+    font-size: 15px;
+}
+.submit_btn {
+padding: 17px 30px;
+margin-top: 18px;
+background:  rgb(255, 221, 0);
+border: none;
+color: black;
+font-weight: bolder;
+
+font-size: 19px;
+font-family: "Inter";
+border-radius: 3px;
+}
